@@ -1,0 +1,18 @@
+<header class="navbar navbar-fixed-top">
+<nav class="navbar navbar-inverse" role="navigation">
+
+<div class="navbar-inner">
+<div class="container">
+<%= link_to "Controller of Examinations", '#', id: "logo" %>
+</div>
+</div>
+</nav>
+</header>
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+<footer class="navbar navbar-fixed-bottom">
+<nav class="navbar navbar-inverse" role="navigation">
+
+<div class="navbar-inner">
+
+<%= link_to "Ostrya Labs", '#', id: "log" %>
+<br>
+<div class="container1">
+<h5><font color="white">  &#169;2012 rbvrr Women's college</font></h5>
+</div>
+</div>
+</nav>
+</footer>

@@ -1,0 +1,235 @@
+@import "bootstrap";
+.wrap {
+    width: 50px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 68px;
+    clear: both;
+}
+.container5 {
+   
+    
+    background-color: #D2B48C;
+    width: 100%;
+        height: 150px;
+        
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+
+
+body {
+    padding-top: 50px;
+    
+ 	}
+.navbar-left
+{
+  
+}
+.logo
+{
+    
+}
+.navbar-inner
+{
+    
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 4px;
+  padding-right: 15px; }
+#logo {
+float: left;
+align: center;
+margin-right: 10px;
+font-size: 1.7em;
+color: white;
+text-transform: uppercase;
+letter-spacing: -1px;
+padding-top: 9px;
+font-weight: bold;
+line-height: 1;
+&:hover {
+color: white;
+text-decoration: none;
+}
+}
+#log {
+float: left;
+margin-right: 10px;
+font-size: 1em;
+color: white;
+text-transform: uppercase;
+letter-spacing: -1px;
+padding-top: 9px;
+font-weight: bold;
+line-height: 1;
+&:hover {
+color: white;
+text-decoration: none;
+}
+}
+
+html
+{
+overflow-y: scroll;
+
+}
+section {
+overflow: auto;
+}
+textarea {
+resize: vertical;
+}
+.center {
+text-align: center;
+}
+.center h1 {
+margin-bottom: 10px;
+}
+
+.container1 {
+width: 98.8%;
+}
+
+.container6 {
+
+
+float: right;
+    
+   
+
+}
+.container4 {
+
+    background-color: #F3E2A9;
+    width: 99%;
+        height: 560px;
+    float: right;
+    padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+	padding-right: 50px;
+ 
+    margin-right: 10px;
+	margin-left: 10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+.container3 {
+
+   
+    width: 35%;
+        height: 400px;
+    float: left;
+    padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+	padding-right: 50px;
+ 
+    margin-right: 10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+#form-left{
+    background-color: #E0E0E0;
+    width:20%;
+    float:right;
+    padding-top:10px;
+    margin-right:10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+    } 
+#form-right{
+    background-color: #E0E0E0;
+    width:40%;
+    height:70%;
+    float:left;
+    padding-top:10px;
+	padding-bottom:10px;
+  
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+    }   
+
+image.likeordisklike { height: 24px; width: 24px; margin-right: 4px; }
+h1.liketext { color:#F00; display:inline }
+
+
+  
+
+
+.container2 {
+ width: 100%;
+        height: 200px;
+    float: right;
+    
+    margin-right: 10px;
+    border-radius: 15px;
+    moz-border-radius: 15px;
+    border: 2px solid;
+        border-color:#ff9900;
+}
+.carousel-caption {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  bottom: 0px;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #000;
+  text-shadow: none;
+  & .btn {
+    text-shadow: none; // No shadow for button elements in carousel-caption
+  }
+}
+
+.carousel {
+    position: relative;
+padding-top: 0px;
+}
+
+.controllers {
+    position: absolute;
+    top: 0px;
+}
+
+.carousel-control.left
+{
+background-image: none;
+margin-center: 50px;
+margin-top: -15px;
+margin-left: 70px;
+}
+.carousel-control.right {
+    background-image: none;
+	margin-center: 50px;
+	margin-top: -15px;
+margin-left: 70px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -20%;  
+    padding-left: 0px;
+    list-style: none outside none;
+    text-align: center;
+}
+.col-sm-8 {
+    width: 80%;
+}
+      

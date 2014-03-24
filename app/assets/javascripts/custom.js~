@@ -1,0 +1,15 @@
+
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
+});
+
+setInterval(function(){
+    if($('td').hasClass('bg_one'))
+       $('td').toggleClass('bg_two');
+    else
+       $('td').toggleClass('bg_one');  
+}, 1000);

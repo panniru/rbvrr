@@ -1,0 +1,10 @@
+
+<nav class="navbar navbar-inverse" role="navigation">
+
+<div class="navbar-inner">
+<div class="container1">
+<% image_tag("building.jpg",width: '80', height: '80') %>
+</div>
+</div>
+</nav>
+

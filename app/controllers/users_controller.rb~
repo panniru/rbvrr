@@ -1,0 +1,28 @@
+class UsersController < ApplicationController
+
+
+before_filter :authenticate_user!
+
+user_signed_in?
+
+current_user
+
+user_session
+  def home
+  end
+
+  def help
+  end
+
+  def signin
+  end
+
+  def new
+  end
+
+  def show
+  end
+
+  def destroy
+  end
+end

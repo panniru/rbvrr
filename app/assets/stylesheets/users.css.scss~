@@ -1,0 +1,10 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+Div#gallery, div#gallery img {
+width: 400px; height: 400px; overflow: hidden; float: left; }
+div#gallery img { transition: all 2s linear;  }
+div#gallery img:hover, div#gallery img:hover + img {
+transform: translate(0, -400px); }
+
+

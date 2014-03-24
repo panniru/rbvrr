@@ -1,0 +1,4 @@
+$ ->
+  $("#carousel-example-generic").carousel()
+
+
