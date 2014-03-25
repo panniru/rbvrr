@@ -3,21 +3,21 @@
 <div class="carousel-inner">
 <div class="item active">
   <div class="holder col-sm-8">
-<%= image_tag("1.JPG", size: "1000x300") %>
+<%= image_tag("1.JPG", size: "1000x400") %>
 
   </div>
   
 </div>
 <div class="item">
   <div class="holder col-sm-8">
-<%= image_tag("2.JPG", size: "1000x300") %>
+<%= image_tag("2.JPG", size: "1000x400") %>
 
   </div>
  
 </div>
 <div class="item">
   <div class="holder col-sm-8">
-<%= image_tag("3.JPG", size: "1000x300") %>
+<%= image_tag("3.JPG", size: "1000x400") %>
   </div>
  
 </div>

@@ -1,0 +1,19 @@
+.container
+  .row
+    %form.form-horizontal
+      %fieldset
+        / Student Registration form
+
+        / full-name input
+        .control-group
+          %label.control-label Full Name
+          .controls
+            %input#full-name.input-xlarge{name: "full-name", placeholder: "full name", type: "text"}/
+            %p.help-block
+
+        / country select
+        .control-group
+          %label.control-label Country
+          .controls
+            %select#country.input-xlarge{name: "country"}
+              %option{selected: "selected", value: ""} (please select a country)

@@ -1,0 +1,177 @@
+.container
+  .row
+    .col-sm-3.col-md-3
+      #accordion.panel-group
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseOne"}
+                %span.glyphicon.glyphicon-folder-close>
+                Home
+          #collapseOne.panel-collapse.collapse.in
+            .panel-body
+              %table.table
+                %tr
+                  %td
+                    %span.glyphicon.glyphicon-stats.text-primary 
+                    %a{href: "http://www.jquery2dotnet.com"} Organization Chart
+                %tr
+                  %td
+                    %span.glyphicon.glyphicon-time.text-primary
+                    %a{href: "http://www.jquery2dotnet.com"} Exam Schedule
+                %tr
+                  %td
+                    %span.glyphicon.glyphicon-calendar.text-primary 
+                    %a{href: "http://www.jquery2dotnet.com"} Calendar
+                
+                
+                
+                
+                
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseTwo"}
+                %span.glyphicon.glyphicon-th>
+                Schedule
+          #collapseTwo.panel-collapse.collapse
+            .panel-body
+              %table.table
+                %tr
+                  %td
+                    %a{href: "http://www.jquery2dotnet.com"} Exam
+                    
+                %tr
+                  %td
+                    %a{href: "http://www.jquery2dotnet.com"} Seating Arrangement
+                %tr
+                  %td
+                    %a{href: "http://www.jquery2dotnet.com"} Hall Ticket
+                %tr
+                  %td
+                    %a{href: "http://www.jquery2dotnet.com"} Circular
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseThree"}
+                %span.glyphicon.glyphicon-user>
+                Account
+          #collapseThree.panel-collapse.collapse
+            .panel-body
+              %table.table
+                %tr
+                  %td
+                    %a{href: "http://www.jquery2dotnet.com"} Change Password
+                %tr
+                  %td
+                    %a{href: "http://www.jquery2dotnet.com"} Notifications
+                  
+                %tr
+                  %td
+                    %a{href: "http://www.jquery2dotnet.com"} Import/Export
+                %tr
+                  %td
+                    %span.glyphicon.glyphicon-trash.text-danger
+                    %a.text-danger{href: "http://www.jquery2dotnet.com"}
+                      Delete Account
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseFour"}
+                %span.glyphicon.glyphicon-file>
+                Reports
+          #collapseFour.panel-collapse.collapse
+            .panel-body
+              %table.table
+               
+               
+               
+               
+                %tr
+                  %td
+                    %span.glyphicon.glyphicon-user
+                    %a{href: "http://www.jquery2dotnet.com"} Student
+                %tr
+                  %td
+                    %span.glyphicon.glyphicon-tasks
+                    %a{href: "http://www.jquery2dotnet.com"} Overall Percentage
+               
+               
+               
+               
+    .col-sm-9.col-md-9
+      .well
+        %h1 Admin
+        .container
+  .row
+    .span12
+      %table.table-condensed.table-bordered.table-striped
+        %thead
+          %tr
+            %th{colspan: "7"}
+              %a.btn
+                %i.icon-chevron-left
+              %a.btn February 2012
+              %a.btn
+                %i.icon-chevron-right
+          %tr
+            %th Su
+            %th Mo
+            %th Tu
+            %th We
+            %th Th
+            %th Fr
+            %th Sa
+        %tbody
+          %tr
+            %td.muted 29
+            %td.muted 30
+            %td.muted 31
+            %td 1
+            %td 2
+            %td 3
+            %td 4
+          %tr
+            %td 5
+            %td 6
+            %td 7
+            %td 8
+            %td 9
+            %td 10
+            %td 11
+          %tr
+            %td 12
+            %td 13
+            %td 14
+            %td 15
+            %td 16
+            %td 17
+            %td 18
+          %tr
+            %td 19
+            %td
+              %strong 20
+            %td 21
+            %td 22
+            %td 23
+            %td 24
+            %td 25
+          %tr
+            %td 26
+            %td 27
+            %td 28
+            %td 29
+            %td.muted 1
+            %td.muted 2
+            %td.muted 3
+        .container
+  .row
+    .col-md-12
+      %h1
+        Exam
+        %span.pull-right
+          %a.btn.btn-default{href: "#"} Manage categories
+          
+          %a.btn.btn-lg.btn-primary{href: "#"}
+            %span.glyphicon.glyphicon-plus
+            create

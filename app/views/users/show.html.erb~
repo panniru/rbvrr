@@ -1,0 +1,7 @@
+<div style="height: 100px">
+  <% first_image  = image_tag('logo.png', :style => 'border: none; width: 100px', :id => 'first_image') %>
+  <% second_image = image_tag('reddy.jpeg', :style => 'border: none; width: 100px', :id => 'second_image') %>
+
+  <%= link_to_function first_image,  "flip_image($('first_image'), $('second_image'))" %>
+  <%= link_to_function second_image, "flip_image($('second_image'), $('first_image'))" %>
+</div>
