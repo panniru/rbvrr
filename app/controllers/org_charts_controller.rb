@@ -1,0 +1,2 @@
+class OrgChartsController < ApplicationController
+end

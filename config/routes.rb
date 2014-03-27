@@ -1,15 +1,20 @@
 Rbvrr::Application.routes.draw do
 
+  get "seating_arrangements/seat"
+  get "postpones/exam_postpone"
+  get "certificates/certificate"
+  get "results/result"
+  get "calendars/calendar"
+  get "schedules/schedule"
+  get "notifications/notifications"
   get "users/home"
   get "users/help"
-  get "users/signin"
   get "users/new"
   get "users/show"
   get "users/destroy"
   get "users/notice"
   get "users/signup"
-  get "users/schedule"
-  get "users/notifications"
+  get "org_charts/orgchart"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

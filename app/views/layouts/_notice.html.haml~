@@ -2,9 +2,11 @@
   .row
     .btn-group.btn-breadcrumb
       %a.btn.btn-primary{href: "#"}
-        %i.glyphicon.glyphicon-home
-      %a.btn.btn-primary{href: "#"} Organization Chart
-      %a.btn.btn-primary{href: "#"} Calendar
-      %a.btn.btn-primary{href: "#"} Exam Schedule
+        %i.glyphicon.glyphicon-home 
+      %a.btn.btn-info{href: "#"} Organization Chart 
+      %a.btn.btn-success{href: "#"} Calendar
+      %a.btn.btn-warning{href: "#"} Exam Schedule
+      %a.btn.btn-danger{href: "#"} Notifications
+      
 
 
