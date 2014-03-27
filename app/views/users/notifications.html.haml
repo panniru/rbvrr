@@ -1,0 +1,73 @@
+.container
+  .row
+    .col-md-6
+      .panel.panel-primary
+        .panel-heading
+          %span.glyphicon.glyphicon-list>
+          Notifications
+          .pull-right.action-buttons
+            .btn-group.pull-right
+              %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+                %span.glyphicon.glyphicon-cog{style: "margin-right: 0px;"}
+              %ul.dropdown-menu.slidedown
+                %li
+                  %a{href: "http://www.jquery2dotnet.com"}
+                    %span.glyphicon.glyphicon-pencil>
+                    Edit
+                %li
+                  %a{href: "http://www.jquery2dotnet.com"}
+                    %span.glyphicon.glyphicon-trash>
+                    Delete
+               
+        .panel-body
+          %ul.list-group
+            %li.list-group-item
+              .checkbox
+                %input#checkbox{type: "checkbox"}/
+                %label{for: "checkbox"}
+                  Sessional Examination-I
+              .pull-right.action-buttons
+                %a{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-pencil
+                %a.trash{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-trash
+               
+            %li.list-group-item
+              .checkbox
+                %input#checkbox2{type: "checkbox"}/
+                %label{for: "checkbox2"}
+                  Sessional Examination-II
+              .pull-right.action-buttons
+                %a{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-pencil
+                %a.trash{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-trash
+               
+            %li.list-group-item
+              .checkbox
+                %input#checkbox3{type: "checkbox"}/
+                %label{for: "checkbox3"}
+                  Model Examination
+              .pull-right.action-buttons
+                %a{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-pencil
+                %a.trash{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-trash
+              
+            %li.list-group-item
+              .checkbox
+                %input#checkbox4{type: "checkbox"}/
+                %label{for: "checkbox4"}
+                  Semester Examination
+              .pull-right.action-buttons
+                %a{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-pencil
+                %a.trash{href: "http://www.jquery2dotnet.com"}
+                  %span.glyphicon.glyphicon-trash
+              
+            .panel-footer
+              .row
+                .col-md-6
+                  %h6
+                    Total Count
+                    %span.label.label-info 10

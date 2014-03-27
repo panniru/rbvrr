@@ -41,25 +41,28 @@
                   %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
                   %li{"data-slide-to" => "3", "data-target" => "#carousel-example-generic"}
                   %li{"data-slide-to" => "4", "data-target" => "#carousel-example-generic"}
-  .container
- .row{style: "margin-top:20px"}
- .col-xs-12.col-sm-8.col-md-6.col-sm-offset-2.col-md-offset-3
- %form{role: "form"}
- %fieldset
- %h2 Login
- %hr.colorgraph/
- .form-group
- %input#email.form-control.input-lg{name: "email", placeholder: "Email Address", type: "email"}/
- .form-group
- %input#password.form-control.input-lg{name: "password", placeholder: "Password", type: "password"}/
-     
- %a.btn.btn-link.pull-right{href: ""} Forgot Password?
- %hr.colorgraph/
- .row
- .col-xs-6.col-sm-6.col-md-6
- %input.btn.btn-lg.btn-success.btn-block{type: "submit", value: "Sign In"}/
-         
-             .container6
+          #form-left.part
+            .form-group
+              %p
+              %center
+                %h3 Login
+              %label.col-md-3.control-label{for: "inputEmail"} Email
+              .col-md-8
+                %input#inputEmail3.form-control{placeholder: "Email", type: "email"}/
+            .form-group
+              %label.col-md-3.control-label{for: "inputPassword3"} Password
+              .col-md-8
+                %input#inputPassword3.form-control{placeholder: "Password", type: "password"}/
+            .form-group
+              .col-md-offset-3.col-md-8
+                .checkbox
+                  %label
+                    %input{type: "checkbox"}/
+                    Remember me
+            .form-group
+              .col-md-offset-3.col-dm-8
+                %button.btn.btn-primary{type: "submit"} Sign in
+          .container6
             %marquee{bgcolor: "#E0E0E0", direction: "up", loop: "true", onmouseout: "this.scrollAmount=2", onmouseover: "this.scrollAmount=0", scrollamount: "2", width: "100%"}
               %ul
                 %li

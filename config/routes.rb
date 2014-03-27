@@ -1,4 +1,5 @@
 Rbvrr::Application.routes.draw do
+
   get "users/home"
   get "users/help"
   get "users/signin"
@@ -8,6 +9,7 @@ Rbvrr::Application.routes.draw do
   get "users/notice"
   get "users/signup"
   get "users/schedule"
+  get "users/notifications"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
