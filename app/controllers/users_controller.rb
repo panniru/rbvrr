@@ -1,20 +1,37 @@
 class UsersController < ApplicationController
-
-  def home
-  end
-
-  def help
-  end
-
-  def signin
-  end
-
-  def new
-  end
-
-  def show
-  end
-
-  def destroy
-  end
-end
+	  def index
+	    @exam = Exam.all
+	  end
+	  def new
+	  
+	  end
+	  def home
+	  end
+	   def signin
+	end
+	  def create
+	    @exam = Exam.new(issue_params)
+	    if @exam.save
+	      flash[:success] = "Exam scheduled!"
+	      redirect_to '/exams'
+	
+	    else
+      	render 'new'
+	    end
+	  end
+	  
+	  def exam_params
+	    params.require(:exam).permit(:department, :semester, :course, :exam_box)
+	  end
+	  
+	  def preview
+	    @exam= Exam.new(exam_params)
+	 end 
+	  def show
+	    render params[:preview]
+	  end
+	 def help
+	  end
+	def destroy
+	end
+	end 

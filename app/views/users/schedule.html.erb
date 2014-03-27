@@ -1,0 +1,19 @@
+<div class = "container">
+  <%= form_for Exam.new do |f| %>
+
+  <%= f.label :department %>
+  <%= f.select :department, options_for_select([['ECE'],['EEE'],['MECH'],['EIE'],['CSE'],['IT']]), { :include_blank=>true } %><br>
+
+  <%= f.label :semester %>&nbsp&nbsp
+  <%= f.select :semester, options_for_select([['I'],['II'],['III'],['IV'],['V'],['VI'],['VII'],['VIII']]), { :include_blank=>true } %><br>
+
+  <%= f.label :course %>&nbsp&nbsp&nbsp
+  <%= f.select :course, options_for_select([['Management'],['Tech Comm'],['Field Course']]), { :include_blank=>true } %><br>
+
+  <br><br>
+
+  <%= f.text_area :exam_box, :rows => 5, :cols => 50 %><br><br>
+  <%=f.submit "submit"%>
+ 
+  <% end %>
+</div>
