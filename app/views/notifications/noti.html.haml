@@ -1,9 +1,4 @@
-.jumbotron.jumbotron-sm
-  .container
-    .row
-      .col-sm-12.col-lg-12
-        %h1.h1
-          Notifications
+
 .container
   .row
     .col-md-8
@@ -15,18 +10,39 @@
                 %label{for: "name"}
                   Name of the Event
                 %input#name.form-control{placeholder: "Enter event", required: "required", type: "text"}/
+              = render 'notifications/date'
+              = render 'notifications/time'
               .form-group
                 %label{for: "Department"}
                   Department
                 %select#department.form-control{name: "department", required: "required"}
                   %option{selected: "selected", value: "na"} Choose
-                  %option{value: "ece"} ECE
-                  %option{value: "eie"} EIE
-                  %option{value: "it"} IT
+                  %option{value: "cspg"} Computer Science(PG)
+                  %option{value: "bbmt"} BBMT
+                  %option{value: "botany"} Botany
+                  %option{value: "ba"} Business Administration 
+                  %option{value: "chemistry"} Chemistry
+                  %option{value: "botany"} Commerce
+                  %option{value: "csug"} Computer Science(UG)
+                  %option{value: "economics"} Economics
+                  %option{value: "electronics"} Electronics
+                  %option{value: "english"} English
+                  %option{value: "hindi"} Hindi
+                  %option{value: "history"} History
+                  %option{value: "mathematics"} Mathematics
+                  %option{value: "physics"} Physics
+                  %option{value: "politicalscience"} Political Science
+                  %option{value: "publicadministration"} Public Administration
+                  %option{value: "sanskrit"} Sanskrit
+                  %option{value: "sociology"} Sociology
+                  %option{value: "telugu"} Telugu
+                  %option{value: "zoology"} Zoology
+                  %option{value: "microbiology"} Microbiology
+                  %option{value: "biotechnology"} BioTechnology
             .col-md-6
               .form-group
                 %label{for: "name"}
-                  Message
+                  Event Description
                 %textarea#message.form-control{cols: "25", name: "message", placeholder: "Message", required: "required", rows: "9"}
             .col-md-12
               %button#btnEvent.btn.btn-primary.pull-right{type: "submit"}

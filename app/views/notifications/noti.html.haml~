@@ -1,52 +1,48 @@
-<div class="jumbotron jumbotron-sm">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <h1 class="h1">
-                    Notifications</h1>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="well well-sm">
-                <form>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Name of the Event</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter event" required="required" />
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="Department">
-                                Department</label>
-                            <select id="department" name="department" class="form-control" required="required">
-                                <option value="na" selected="">Choose</option>
-                                <option value="ece">ECE</option>
-                                <option value="eie">EIE</option>
-                                <option value="it">IT</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnEvent">
-                            Post</button>
-                    </div>
-                </div>
-                </form>
-            </div>
-        </div>
-        
-    </div>
+
+.container
+  .row
+    .col-md-8
+      .well.well-sm
+        %form
+          .row
+            .col-md-6
+              .form-group
+                %label{for: "name"}
+                  Name of the Event
+                %input#name.form-control{placeholder: "Enter event", required: "required", type: "text"}/
+              = render 'notifications/date'
+              .form-group
+                %label{for: "Department"}
+                  Department
+                %select#department.form-control{name: "department", required: "required"}
+                  %option{selected: "selected", value: "na"} Choose
+                  %option{value: "cspg"} Computer Science(PG)
+                  %option{value: "bbmt"} BBMT
+                  %option{value: "botany"} Botany
+                  %option{value: "ba"} Business Administration 
+                  %option{value: "chemistry"} Chemistry
+                  %option{value: "botany"} Commerce
+                  %option{value: "csug"} Computer Science(UG)
+                  %option{value: "economics"} Economics
+                  %option{value: "electronics"} Electronics
+                  %option{value: "english"} English
+                  %option{value: "hindi"} Hindi
+                  %option{value: "history"} History
+                  %option{value: "mathematics"} Mathematics
+                  %option{value: "physics"} Physics
+                  %option{value: "politicalscience"} Political Science
+                  %option{value: "publicadministration"} Public Administration
+                  %option{value: "sanskrit"} Sanskrit
+                  %option{value: "sociology"} Sociology
+                  %option{value: "telugu"} Telugu
+                  %option{value: "zoology"} Zoology
+                  %option{value: "microbiology"} Microbiology
+                  %option{value: "biotechnology"} BioTechnology
+            .col-md-6
+              .form-group
+                %label{for: "name"}
+                  Event Description
+                %textarea#message.form-control{cols: "25", name: "message", placeholder: "Message", required: "required", rows: "9"}
+            .col-md-12
+              %button#btnEvent.btn.btn-primary.pull-right{type: "submit"}
+                Post

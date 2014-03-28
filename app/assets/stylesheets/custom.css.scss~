@@ -368,10 +368,10 @@ color: #FFF;
 border-radius: 15px;
     moz-border-radius: 15px;
 }
-.jumbotron-sm { padding-top: 10px;
-padding-bottom: 10px;
- margin-right:200px;
- margin-left:200px; }
+.jumbotron-sm { padding-top: 5px;
+padding-bottom: 5px;
+ margin-right:150px;
+ margin-left:150px; }
 .jumbotron small {
 color: #FFF;
 }
@@ -381,3 +381,12 @@ color: #FFF;
 .h1 small {
 font-size: 15px;
 }
+.well-sm {
+    padding: 20px;
+    border-radius: 3px 3px 3px 3px;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+
