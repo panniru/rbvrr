@@ -1,0 +1,33 @@
+.jumbotron.jumbotron-sm
+  .container
+    .row
+      .col-sm-12.col-lg-12
+        %h1.h1
+          Notifications
+.container
+  .row
+    .col-md-8
+      .well.well-sm
+        %form
+          .row
+            .col-md-6
+              .form-group
+                %label{for: "name"}
+                  Name of the Event
+                %input#name.form-control{placeholder: "Enter event", required: "required", type: "text"}/
+              .form-group
+                %label{for: "Department"}
+                  Department
+                %select#department.form-control{name: "department", required: "required"}
+                  %option{selected: "selected", value: "na"} Choose
+                  %option{value: "ece"} ECE
+                  %option{value: "eie"} EIE
+                  %option{value: "it"} IT
+            .col-md-6
+              .form-group
+                %label{for: "name"}
+                  Message
+                %textarea#message.form-control{cols: "25", name: "message", placeholder: "Message", required: "required", rows: "9"}
+            .col-md-12
+              %button#btnEvent.btn.btn-primary.pull-right{type: "submit"}
+                Post

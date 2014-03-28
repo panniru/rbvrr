@@ -62,7 +62,7 @@ width: 98.8%;
 
 .container4 {
 
-    background-color: #F3E2A9;
+    background-color: #E0F8F7;
     width: 80%;
         height: 560px;
    
@@ -71,8 +71,7 @@ width: 98.8%;
         padding-left: 50px;
 	padding-right: 50px;
  
-    margin-right: 10px;
-	margin-left: 10px;
+   
     border-radius: 15px;
     moz-border-radius: 15px;
     border: 2px solid;
@@ -362,4 +361,23 @@ body {text-rendering:optimizespeed;}
 .btn:focus:not(a) {outline:none;-webkit-outline:none;-moz-outline:none;}
 .btn-sm {padding-top:1.5px;}
 
+.jumbotron {
+background: #358CCE;
+color: #FFF;
 
+border-radius: 15px;
+    moz-border-radius: 15px;
+}
+.jumbotron-sm { padding-top: 10px;
+padding-bottom: 10px;
+ margin-right:200px;
+ margin-left:200px; }
+.jumbotron small {
+color: #FFF;
+}
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 30px;
+}
+.h1 small {
+font-size: 15px;
+}

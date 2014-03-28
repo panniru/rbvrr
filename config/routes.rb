@@ -7,6 +7,7 @@ Rbvrr::Application.routes.draw do
   get "calendars/calendar"
   get "schedules/schedule"
   get "notifications/notifications"
+  get "notifications/noti"
   get "users/home"
   get "users/help"
   get "users/new"
